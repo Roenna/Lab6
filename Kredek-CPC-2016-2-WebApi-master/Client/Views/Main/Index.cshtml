@@ -1,0 +1,28 @@
+﻿
+<div>
+    <h1> Tu będzie lista studentów</h1>
+    <ol id="students"></ol>
+</div>
+<form id="newStudent">
+    <div class="row">
+        <label class="col-md-4" for="Name">Imie:</label>
+        <input type="text" name="Name" id="Name" class="col-md-4" />
+    </div>
+    <div class="row">
+        <label class="col-md-4" for="Surname">Nazwisko:</label>
+        <input type="text" name="Surname" id="Surname" class="col-md-4" />
+    </div>
+    <div class="row">
+        <label class="col-md-4" for="Email">Email:</label>
+        <input type="text" name="Email" id="Email" class="col-md-4" />
+    </div>
+    <div class="row">
+        <label class="col-md-4" for="Index">Indeks:</label>
+        <input type="text" name="Index" id="Index" class="col-md-4" />
+    </div>
+    <input onclick="addStudent()" class="btn btn-danger col-md-6" value="This is SPARTA" />
+</form>
+<script type="text/javascript">
+    allStudentsToList()
+</script>
+
